@@ -14,7 +14,7 @@ form.addEventListener("submit", async (event) => {
         message: messageInput.value
     }
     try {
-        const response = await fetch("/api/submit-contact", {
+        const response = await fetch("/submit-contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
